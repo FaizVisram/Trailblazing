@@ -238,8 +238,6 @@ public class MapActivity extends Activity implements
             }
         } else {
             Log.d("MapActivity", "Location Client Not Connected.");
-
-//            showErrorDialog(connectionResult.getErrorCode());
         }
     }
     
