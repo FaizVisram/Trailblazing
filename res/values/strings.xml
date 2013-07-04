@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Tracks</string>
+	<string name="dismiss">Dismiss</string>
+    <string name="about">About</string>
+    
+    <!-- My Distance -->
+    <string name="my_distance">My Distance</string>
+    <string name="my_distance_today">You\'ve traveled about %.1fm today!</string>
+    
+	<!-- Battery -->
+    <string name="battery_stats">Battery Stats</string>
+	<string name="battery_stats_unavailable">Battery statistics are currently unavailable. Try again later.</string>
+	<string name="battery_log_record">At %1$s, %2$2.0f%% remaining.</string>
+</resources>

@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item 
+	    android:id="@+id/my_distance_item"
+	    android:onClick="showMyDistance"
+	    android:title="@string/my_distance"/>
+    
+    <item 
+	    android:id="@+id/battery_item"
+	    android:onClick="showBatteryStats"
+	    android:showAsAction="never"
+	    android:title="@string/battery_stats"/>
+    
+	<item 
+	    android:id="@+id/about_item"
+	    android:onClick="showAbout"
+	    android:showAsAction="never"
+	    android:title="@string/about"/>
+</menu>
