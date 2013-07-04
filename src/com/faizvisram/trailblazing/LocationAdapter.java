@@ -96,6 +96,9 @@ public class LocationAdapter extends ArrayAdapter<Location> {
 	 * @param list	List of Locations to be added.
 	 */
 	public void addAll(List<Location> list) {
+		if (list == null)
+			return;
+		
 		for (int i = 0; i < list.size(); i++) {
 			add(list.get(i));
 		}
